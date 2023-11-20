@@ -13,7 +13,7 @@ A simple and aesthetic to-do list app written in JavaScript.
 
 ## Live Demo
 
-[View live demo here!](https://thuhtoosan.github.io/to-do-list)
+[View live demo here!](https://todolist1904.netlify.app/)
 
 ## Screenshots
 
