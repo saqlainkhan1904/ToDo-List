@@ -17,6 +17,8 @@ A simple and aesthetic to-do list app written in JavaScript.
 
 ## Screenshots
 
-![Light Theme screenshot](/images/screenshot-light.png?raw=true)
+(https://drive.google.com/file/d/1570CESxluNPH9AjOsSbA6jOjPmmveKW8/view?usp=sharing)
+(https://drive.google.com/file/d/18AoBEOlOxKhTN_-M5iPWnZk50_ORRM4y/view?usp=sharing) 
+(https://drive.google.com/file/d/1B_i6WMrNMfrFpMRmIpqb2lclPLav0K9V/view?usp=sharing)
+https://drive.google.com/file/d/1D5J1izMW1uO9JsnsQSjhn1q5mZIgGjEc/view?usp=sharing)
 
-![Dark Theme screenshot](/images/screenshot-dark.png?raw=true)
