@@ -1,4 +1,4 @@
-# To-Do List  ![image](https://github.com/saqlainkhan1904/ToDo-List/assets/78788519/ea7ee311-d8b0-4cc9-8db3-382566bc9327)
+# To-Do List  ![](https://github.com/saqlainkhan1904/ToDo-List/assets/78788519/ea7ee311-d8b0-4cc9-8db3-382566bc9327)
 
 
 A simple and aesthetic to-do list app written in JavaScript.
@@ -22,3 +22,6 @@ A simple and aesthetic to-do list app written in JavaScript.
 ![Screenshot (13)](https://github.com/saqlainkhan1904/ToDo-List/blob/0029431846edefece1bfbc1eb7ec7875de0f9a2a/images/Screenshot%20(2).png)
 ![Screenshot (13)](https://github.com/saqlainkhan1904/ToDo-List/blob/0029431846edefece1bfbc1eb7ec7875de0f9a2a/images/Screenshot%20(3).png)
 ![Screenshot (13)](https://github.com/saqlainkhan1904/ToDo-List/blob/0029431846edefece1bfbc1eb7ec7875de0f9a2a/images/Screenshot%20(4).png)
+Credits
+# Author: MD SAQLAIN AHMAD KHAN
+# Email: <saqlainkhan1904@gmail.com>
