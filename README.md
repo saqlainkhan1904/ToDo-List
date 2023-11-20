@@ -1,4 +1,4 @@
-# To-Do List ![JavaPoint](https://www.flaticon.com/free-icon/checklist_9741158?term=to+do+list&page=1&position=15&origin=tag&related_id=9741158)
+# To-Do List !(https://www.flaticon.com/free-icon/checklist_9741158?term=to+do+list&page=1&position=15&origin=tag&related_id=9741158)
 
 A simple and aesthetic to-do list app written in JavaScript.
 
