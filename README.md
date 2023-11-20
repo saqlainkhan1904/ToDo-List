@@ -18,7 +18,7 @@ A simple and aesthetic to-do list app written in JavaScript.
 
 ## Screenshots
 
-(https://github.com/saqlainkhan1904/ToDo-List/blob/0029431846edefece1bfbc1eb7ec7875de0f9a2a/images/Screenshot%20(1).png)
-(https://github.com/saqlainkhan1904/ToDo-List/blob/0029431846edefece1bfbc1eb7ec7875de0f9a2a/images/Screenshot%20(2).png)
-(https://github.com/saqlainkhan1904/ToDo-List/blob/0029431846edefece1bfbc1eb7ec7875de0f9a2a/images/Screenshot%20(3).png)
-(https://github.com/saqlainkhan1904/ToDo-List/blob/0029431846edefece1bfbc1eb7ec7875de0f9a2a/images/Screenshot%20(4).png)
+![image](https://github.com/saqlainkhan1904/ToDo-List/blob/0029431846edefece1bfbc1eb7ec7875de0f9a2a/images/Screenshot%20(1).png)
+![Screenshot (13)](https://github.com/saqlainkhan1904/ToDo-List/blob/0029431846edefece1bfbc1eb7ec7875de0f9a2a/images/Screenshot%20(2).png)
+![Screenshot (13)](https://github.com/saqlainkhan1904/ToDo-List/blob/0029431846edefece1bfbc1eb7ec7875de0f9a2a/images/Screenshot%20(3).png)
+![Screenshot (13)](https://github.com/saqlainkhan1904/ToDo-List/blob/0029431846edefece1bfbc1eb7ec7875de0f9a2a/images/Screenshot%20(4).png)
