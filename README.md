@@ -1,4 +1,4 @@
-# To-Do List  ![](https://github.com/saqlainkhan1904/ToDo-List/assets/78788519/ea7ee311-d8b0-4cc9-8db3-382566bc9327|10x10)
+# To-Do List  ![](https://github.com/saqlainkhan1904/ToDo-List/assets/78788519/ea7ee311-d8b0-4cc9-8db3-382566bc9327=10x10)
 
 
 A simple and aesthetic to-do list app written in JavaScript.
