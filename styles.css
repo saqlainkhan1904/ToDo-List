@@ -1,0 +1,376 @@
+/* Variables */
+:root {
+    --yellow: #EBEF95;
+    --orange: #EFB495;
+    --light-peach: #ef9d9d;
+    --peach: #EF9595;
+    --white: #fff;
+    --black: #000;
+    --red: #e24675;
+    --grey: grey;
+    --light-grey: rgb(162, 162, 162);
+    --dark-grey: rgb(106, 106, 106);
+    --font: #000;
+    --bg: #fff;
+    color-scheme: light dark;
+}
+
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inclusive Sans', 'Padauk', sans-serif;
+}
+
+body {
+    background-color: var(--yellow);
+    opacity: 1;
+    background-image: radial-gradient(var(--peach) 0.5px, var(--yellow) 0.5px);
+    background-size: 10px 10px;
+    overflow-x: hidden;
+}
+
+/* main container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    width: calc(100% - 50px);
+    margin: 10px auto;
+}
+
+/* header */
+.header * {
+    font-family: 'Itim', cursive;
+}
+
+.header #title {
+    margin-top: 10px;
+    font-size: 3rem;
+    color: var(--peach);
+}
+
+.header #author {
+    font-size: .7rem;
+    text-align: right;
+    color: var(--dark-grey);
+    margin-top: 10px;
+}
+
+.header #author a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* user input container */
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: 1.5px solid var(--peach);
+    box-shadow: 0 0 8px var(--orange);
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.input-container #task-input {
+    padding: 10px 15px;
+    font-size: 1.1rem;
+    width: 85%;
+    border: none;
+    border-radius: 25px 0 0 25px;
+    background-color: var(--bg);
+    color: var(--font);
+}
+
+.input-container #addTaskBtn {
+    width: 15%;
+    background: var(--peach);
+    cursor: pointer;
+    border: none;
+    color: var(--white);
+}
+
+.input-container #task-input:focus {
+    outline: 2px solid var(--peach);
+    outline-offset: -1.5px;
+}
+
+/* task container */
+.task-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.task-container .task {
+    display: flex;
+    width: 100%;
+    max-height: 999px;
+    background-color: var(--bg);
+    color: var(--font);
+    overflow: hidden;
+    border-radius: 25px;
+    box-shadow: 0 0 8px var(--orange);
+    transition: .5s;
+    animation: slideDown 1s;
+}
+
+.task-container .task:active {
+    transform: scale(1.05);
+}
+
+@keyframes slideDown {
+    0% {
+        max-height: 0;
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        max-height: 999px;
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.task p {
+    flex: 8;
+    padding: 12px 0;
+    overflow-y: auto;
+    transition: .3s;
+}
+
+.task button {
+    border: none;
+    cursor: pointer;
+}
+
+.task #markDoneBtn {
+    flex: .8;
+    background: none;
+    font-size: 1.2rem;
+    color: var(--peach);
+    padding-left: 5px;
+    margin-right: 5px;
+    transition: .5s;
+}
+
+.task #editBtn,
+.task #removeBtn {
+    flex: 1.1;
+    font-size: 1rem;
+    color: var(--white);
+    transition: .5s;
+}
+
+.task #editBtn {
+    background: var(--light-peach);
+}
+
+.task #editBtn:hover {
+    font-size: .8rem;
+    background: var(--orange);
+}
+
+.task #removeBtn {
+    background: var(--peach);
+}
+
+.task #removeBtn:hover {
+    font-size: .8rem;
+    background: var(--red);
+}
+
+.task.done p {
+    text-decoration: line-through;
+    opacity: .5;
+    filter: grayscale(1);
+}
+
+.task.removed {
+    animation: slideLeft 1s forwards !important;
+}
+
+@keyframes slideLeft {
+    0% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    100% {
+        max-height: 0;
+        opacity: 0;
+        transform: translateX(-1000px);
+        margin-bottom: -20px;
+    }
+}
+
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(150px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* remove all button container */
+
+.remove-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.remove-container #removeAllBtn {
+    background-color: var(--light-grey);
+    border: none;
+    box-shadow: 0 0 3px var(--light-grey);
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: var(--white);
+    cursor: pointer;
+    display: none;
+    opacity: 0;
+}
+
+.remove-container #removeAllBtn.show {
+    display: block;
+    animation: fadeIn .5s forwards;
+    animation-delay: .5s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Task editing */
+
+.edit-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background: var(--yellow);
+    animation: fadeIn .3s;
+    transition: .3s;
+}
+
+.edit-container.hide {
+    opacity: 0;
+    visibility: 0;
+}
+
+.edit-container #task-edit {
+    border: 2px solid var(--light-peach);
+    box-shadow: 0 0 5px var(--orange);
+    padding: 12px 15px;
+    border-radius: 8px;
+    background: var(--bg);
+    color: var(--font);
+    font-size: 1.1rem;
+    transition: .3s;
+}
+
+.edit-container #task-edit:focus {
+    outline: 2px solid var(--light-peach);
+}
+
+.edit-container #doneBtn {
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: var(--light-peach);
+    box-shadow: 0 0 5px var(--orange);
+    color: var(--white);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.edit-container #doneBtn:hover {
+    font-size: .8rem;
+    background: var(--orange);
+}
+
+/* source code container */
+
+.source-code {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: -0.4rem;
+    right: .5rem;
+    width: 40px;
+    height: 40px;
+    background: var(--grey);
+    opacity: 0;
+    border-radius: 0 0 50% 50%;
+    box-shadow: 0 0 3px var(--light-grey);
+    cursor: pointer;
+    animation: slideDown .5s 1s forwards;
+}
+
+.source-code i {
+    color: var(--white);
+    font-size: 1.2rem;
+}
+
+::selection {
+    color: var(--bg);
+    background: var(--peach);
+}
+
+/* Event delegation fix */
+button > * {
+    pointer-events: none;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --yellow: #8d62620b;
+        --orange: #efb4953d;
+        --light-peach: #cb9393;
+        --peach: #ce8282;
+        --white: #e0e0e0;
+        --red: #e24675;
+        --grey: rgb(95, 95, 95);
+        --light-grey: rgb(95, 95, 95);
+        --dark-grey: rgb(187, 187, 187);
+        --font: #ebeaea;
+        --bg: #8D6262;
+    }
+    ::selection {
+        color: var(--peach);
+        background: var(--white);
+    }
+
+    ::placeholder {
+        color: var(--dark-grey);
+    }
+
+    .edit-container {
+        background: var(--black);
+    }
+}
