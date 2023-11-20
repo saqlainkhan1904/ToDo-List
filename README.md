@@ -1,4 +1,5 @@
-# To-Do List ![](https://www.flaticon.com/free-icon/checklist_9741158?term=to+do+list&page=1&position=15&origin=tag&related_id=9741158)
+# To-Do List  ![image](https://github.com/saqlainkhan1904/ToDo-List/assets/78788519/ea7ee311-d8b0-4cc9-8db3-382566bc9327)
+
 
 A simple and aesthetic to-do list app written in JavaScript.
 
@@ -17,8 +18,7 @@ A simple and aesthetic to-do list app written in JavaScript.
 
 ## Screenshots
 
-(https://drive.google.com/file/d/1570CESxluNPH9AjOsSbA6jOjPmmveKW8/view?usp=sharing)
-(https://drive.google.com/file/d/18AoBEOlOxKhTN_-M5iPWnZk50_ORRM4y/view?usp=sharing) 
-(https://drive.google.com/file/d/1B_i6WMrNMfrFpMRmIpqb2lclPLav0K9V/view?usp=sharing)
-https://drive.google.com/file/d/1D5J1izMW1uO9JsnsQSjhn1q5mZIgGjEc/view?usp=sharing)
-
+(https://github.com/saqlainkhan1904/ToDo-List/blob/0029431846edefece1bfbc1eb7ec7875de0f9a2a/images/Screenshot%20(1).png)
+(https://github.com/saqlainkhan1904/ToDo-List/blob/0029431846edefece1bfbc1eb7ec7875de0f9a2a/images/Screenshot%20(2).png)
+(https://github.com/saqlainkhan1904/ToDo-List/blob/0029431846edefece1bfbc1eb7ec7875de0f9a2a/images/Screenshot%20(3).png)
+(https://github.com/saqlainkhan1904/ToDo-List/blob/0029431846edefece1bfbc1eb7ec7875de0f9a2a/images/Screenshot%20(4).png)
